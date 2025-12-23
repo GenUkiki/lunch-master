@@ -1,0 +1,5 @@
+[
+{"user_id":"u-admin","name":"Admin","email":"admin@example.com","password_hash":"","role":"admin","status":"active"},
+{"user_id":"u-alice","name":"Alice","email":"alice@example.com","password_hash":"","role":"general","status":"active"},
+{"user_id":"u-bob","name":"Bob","email":"bob@example.com","password_hash":"","role":"general","status":"active"}
+]

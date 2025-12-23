@@ -4,7 +4,7 @@
             "user_id": "ukiki",
             "name": "Admin",
             "email": "admin@example.com",
-            "password_hash": "",
+            "password": "ukiki",
             "role": "admin",
             "status": "active"
         },
@@ -12,7 +12,7 @@
             "user_id": "hamano",
             "name": "Alice",
             "email": "hamano@example.com",
-            "password_hash": "",
+            "password": "",
             "role": "general",
             "status": "active"
         },
@@ -20,7 +20,7 @@
             "user_id": "takashima",
             "name": "Bob",
             "email": "takashima@example.com",
-            "password_hash": "",
+            "password": "",
             "role": "general",
             "status": "active"
         }

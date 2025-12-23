@@ -16,7 +16,7 @@ async function login(req, res) {
   }
 
   // 簡易認証: パスワードはプレースホルダとして "password" を受け入れ
-  if (password !== "password") {
+  if (!password == "password") {
     return res.status(401).json({ error: "Invalid credentials" });
   }
 

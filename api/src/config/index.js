@@ -3,4 +3,6 @@ module.exports = {
   INPUT_WINDOW_MIN_START: 8 * 60 + 30, // 08:30
   INPUT_WINDOW_MIN_END: 8 * 60 + 50, // 08:50
   TIMEZONE: "Asia/Tokyo", // 実運用時は正しい TZ を設定
+  JWT_SECRET: process.env.JWT_SECRET || "CHANGE_ME_TO_SECURE",
+  DEFAULT_SITE_ID: process.env.DEFAULT_SITE_ID || "siteA",
 };

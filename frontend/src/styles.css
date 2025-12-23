@@ -1,0 +1,62 @@
+/* 簡易スタイルの例 */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+.app {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.login {
+    max-width: 320px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.login .error {
+    color: red;
+}
+
+.input,
+input {
+    padding: 8px;
+    margin: 6px 0;
+    width: 100%;
+}
+
+.button,
+button {
+    padding: 8px 12px;
+    margin-top: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.card {
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #ddd;
+    flex: 1;
+    text-align: center;
+}
+
+.label {
+    font-size: 14px;
+    color: #666;
+}
+
+.value {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 6px;
+}
